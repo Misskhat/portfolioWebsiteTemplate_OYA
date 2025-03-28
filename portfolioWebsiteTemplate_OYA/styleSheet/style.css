@@ -1,3 +1,43 @@
-h1{
-    color: burlywood;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif; 
 }
+
+/* navbar style section start */
+
+.navbar{
+    margin: 50px auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_right p{
+    color: #8671FC;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.nav_left a:hover{
+    color: #8671FC;
+}
+
+/* navbar style section end */
+
