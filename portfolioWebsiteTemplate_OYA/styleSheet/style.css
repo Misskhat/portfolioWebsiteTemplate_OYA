@@ -75,7 +75,7 @@
 
 .downloadResume{
     border: none;
-    background: white;
+    background: none;
     color: #8671FC;
     font-weight: 700;
 }
@@ -88,3 +88,66 @@
     object-fit: cover;
     margin-bottom: 40px;
 }
+/* hero section end */
+
+#about{
+    background: #F05D7B;
+    color: white;
+    max-height: 722px;
+}
+
+.about-container{
+    max-width: 1440px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    padding: 150px 185px;
+}
+
+.about_one{
+   letter-spacing: 0.3px;
+   width: 560px;
+}
+
+.about_one h4{
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about_one h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about_one p{
+    opacity: 0.8;
+    margin-bottom: 70px;
+}
+
+.about_one > .downloadResume{
+    color: white;
+}
+
+.about_two{
+    letter-spacing: 0.3px;
+    width: 421px;
+}
+
+.about_two h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.description{
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.email{
+    color: white;
+    font-weight: 700;
+}
+
+/* about section end */
