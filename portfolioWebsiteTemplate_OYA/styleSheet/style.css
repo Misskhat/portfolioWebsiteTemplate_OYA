@@ -6,7 +6,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-/* navbar style section start */
+/* ===============navbar style section start=============== */
 
 .navbar {
   margin: 70px auto;
@@ -40,8 +40,9 @@
   border-bottom: 1px solid #8671fc;
 }
 
-/* navbar style section end */
+/* ===============navbar style section end=============== */
 
+/* ===============hero section start=============== */
 .hero {
   margin: 0 auto;
   max-width: 1170px;
@@ -88,7 +89,9 @@
   object-fit: cover;
   margin-bottom: 40px;
 }
-/* hero section end */
+/*===============hero section end=============== */
+
+/*===============about section start=============== */
 
 #about {
   background: #f05d7b;
@@ -150,9 +153,9 @@
   font-weight: 700;
 }
 
-/* about section end */
+/*===============about section end=============== */
 
-/* skills section start */
+/*===============skills section start===============*/
 
 #skills {
   max-width: 1170px;
@@ -174,7 +177,7 @@
   font-weight: 700;
   letter-spacing: 0.3px;
   text-transform: capitalize;
-  margin-bottom: 70px;
+  
 }
 
 .skills_item_wrapper {
@@ -192,6 +195,7 @@
   width: 265px;
   border: 1px solid rgba(71, 71, 71, 0.1);
   padding: 50px 50px 36px 50px;
+  margin-top: 70px;
   position: relative;
   overflow: hidden;
   z-index: 999;
@@ -257,5 +261,53 @@
 .skills_item:hover .skills_shape{
   opacity: 1;
 }
+/*===============skills section end===============*/
 
-/* skills section end */
+/*===============portfolio section start===============*/
+#portfolio{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.portfolio_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.portfolio_btn button{
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #838383;
+}
+
+.portfolio_btn button:hover{
+  color: #8671FC;
+}
+
+.portfolio_wrapper{
+  display: flex;
+  column-gap: 30px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+
+}
+
+.portfolio_img img{
+  max-width: 334px;
+  max-height: 334px;
+  object-fit: cover;
+}
+
+
+
+
+/*===============portfolio section end===============*/
