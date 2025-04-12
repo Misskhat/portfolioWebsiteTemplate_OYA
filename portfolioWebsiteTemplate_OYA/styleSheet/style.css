@@ -360,4 +360,21 @@
 
 }
 
+.slider_item{
+  max-width: 280px;
+}
+
+.main_img{
+  max-width: 184px;
+  max-height: 184px;
+  object-fit: cover;
+  position: relative;
+}
+
+.slider_item .testi_img svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*===============testimonials section end===============*/
