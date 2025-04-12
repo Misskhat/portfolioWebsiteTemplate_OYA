@@ -73,11 +73,12 @@
   margin-right: 40px;
 }
 
-.downloadResume {
+.downloadResume{
+  background-color: transparent;
   border: none;
-  background: none;
-  color: #8671fc;
   font-weight: 700;
+  color: #8671FC;
+  cursor: pointer;
 }
 
 .hero_two img {
@@ -151,91 +152,25 @@
 
 /* about section end */
 
-.service_container {
-  margin: 150px auto;
-  max-width: 1440px;
-}
+/* skills section start */
 
-.service_container_text {
+.subHeading{
   text-align: center;
-}
-
-.service_container h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.service_container h3 {
+.subTitle{
+  text-align: center;
   font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
   margin-bottom: 70px;
 }
 
-.work_info {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 80px;
-}
-
-.illustrator {
-  padding: 50px;
-  transition-duration: 0.2s;
-}
-
-.illustrator > h4 {
-  font-size: 24px;
-  margin-bottom: 25px;
-}
-
-.illustrator p {
-  opacity: 0.6;
-  margin-bottom: 40px;
-}
-
-.illustrator button {
-  color: #8671fc;
-}
-
-.ui_ux {
-  padding: 50px;
-  transition-duration: 0.2s;
-}
-
-.ui_ux h4 {
-  font-size: 24px;
-  margin-bottom: 25px;
-}
-
-.ui_ux p {
-  opacity: 0.6;
-  margin-bottom: 40px;
-}
-
-.ui_ux button {
-  color: #8671fc;
-}
-
-.logo {
-  padding: 50px;
-  transition-duration: 0.2s;
-}
-
-.logo h4 {
-  font-size: 24px;
-  margin-bottom: 25px;
-}
-
-.logo p {
-  opacity: 0.6;
-  margin-bottom: 40px;
-}
-
-.logo button {
-  color: #8671fc;
-}
-
-.illustrator:hover,
-.ui_ux:hover,
-.logo:hover, button:hover {
-  background-color: #f05d7b;
-  color: white;
-}
+/* skills section end */
