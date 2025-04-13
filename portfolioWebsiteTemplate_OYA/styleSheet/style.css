@@ -294,6 +294,8 @@
 
 .portfolio_wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
   column-gap: 30px;
   row-gap: 30px;
   flex-wrap: wrap;
@@ -315,6 +317,9 @@
 #testimonials{
   max-width: 1170px;
   margin: 0 auto;
+  display: flex;
+  column-gap: 100px;
+  /* overflow: hidden; */
 }
 
 
@@ -371,10 +376,48 @@
   position: relative;
 }
 
-.slider_item .testi_img svg {
-  position: absolute;
-  top: 0;
-  left: 0;
+.testi_img {
+  position: relative;
+  padding: 5px;
+  margin-bottom: 30px;
 }
+
+.testi_img .quote_icon{
+  position: absolute;
+  top: 112px;
+  left: 20px;
+}
+
+.testi_img_des_wrapper .testing_des{
+  max-width: 280px;
+  color: #838383;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  margin-bottom: 56px;
+}
+
+.author p{
+  margin-top: 10px;
+  color: #838383;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+}
+
+.slider_item{
+  display: flex;
+  column-gap: 60px;
+}
+
+.testimonials_right{
+  margin-bottom: 100px;
+  overflow-x: hidden;
+  width: 1000px;
+}
+
 
 /*===============testimonials section end===============*/
