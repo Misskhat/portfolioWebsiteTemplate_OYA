@@ -177,7 +177,6 @@
   font-weight: 700;
   letter-spacing: 0.3px;
   text-transform: capitalize;
-  
 }
 
 .skills_item_wrapper {
@@ -189,7 +188,6 @@
   row-gap: 30px;
   margin-bottom: 150px;
 }
-
 
 .skills_item {
   width: 265px;
@@ -242,15 +240,21 @@
   color: #fff;
 }
 
-.skills_item h3, .skills_item p, .skills_item a{
+.skills_item h3,
+.skills_item p,
+.skills_item a {
   position: relative;
   z-index: 999;
 }
-.skills_shape{
+.skills_shape {
   width: 325px;
   height: 325px;
   border-radius: 50%;
-  background: linear-gradient(223deg, #F46C88 9.78%, rgba(251, 165, 189, 0.20) 136.5%);
+  background: linear-gradient(
+    223deg,
+    #f46c88 9.78%,
+    rgba(251, 165, 189, 0.2) 136.5%
+  );
   position: absolute;
   top: -50px;
   left: -80px;
@@ -258,25 +262,25 @@
   transition: all linear 0.2s;
 }
 
-.skills_item:hover .skills_shape{
+.skills_item:hover .skills_shape {
   opacity: 1;
 }
 /*===============skills section end===============*/
 
 /*===============portfolio section start===============*/
-#portfolio{
+#portfolio {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.portfolio_btn{
+.portfolio_btn {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 50px;
 }
 
-.portfolio_btn button{
+.portfolio_btn button {
   background: none;
   border: none;
   text-decoration: none;
@@ -288,11 +292,11 @@
   color: #838383;
 }
 
-.portfolio_btn button:hover{
-  color: #8671FC;
+.portfolio_btn button:hover {
+  color: #8671fc;
 }
 
-.portfolio_wrapper{
+.portfolio_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +306,7 @@
   margin-bottom: 150px;
 }
 
-.portfolio_img img{
+.portfolio_img img {
   max-width: 334px;
   max-height: 334px;
   object-fit: cover;
@@ -310,11 +314,9 @@
 
 /*===============portfolio section end===============*/
 
-
-
 /*===============testimonials section start===============*/
 
-#testimonials{
+#testimonials {
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
@@ -322,16 +324,16 @@
   /* overflow: hidden; */
 }
 
-
 .testimonials_left {
   width: 311px;
 }
 
-.testimonials_left h4, .testimonials_left h2 {
+.testimonials_left h4,
+.testimonials_left h2 {
   text-align: left;
 }
 
-.testimonials_left p{
+.testimonials_left p {
   text-align: left;
   margin-top: 25px;
   margin-bottom: 100px;
@@ -344,32 +346,31 @@
 .arrow {
   width: 70px;
   height: 70px;
-  border: 1px solid #8671FC;
+  border: 1px solid #8671fc;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.arrow:hover{
-  border: 1px solid #8671FC;
-  background: #8671FC;
+.arrow:hover {
+  border: 1px solid #8671fc;
+  background: #8671fc;
   color: white;
 }
 
-.testi_arrow_wrapper{
+.testi_arrow_wrapper {
   display: flex;
   /* justify-content: center; */
   align-items: center;
   column-gap: 30px;
   margin-bottom: 52px;
-
 }
 
-.slider_item{
+.slider_item {
   max-width: 280px;
 }
 
-.main_img{
+.main_img {
   max-width: 184px;
   max-height: 184px;
   object-fit: cover;
@@ -382,13 +383,13 @@
   margin-bottom: 30px;
 }
 
-.testi_img .quote_icon{
+.testi_img .quote_icon {
   position: absolute;
   top: 112px;
   left: 20px;
 }
 
-.testi_img_des_wrapper .testing_des{
+.testi_img_des_wrapper .testing_des {
   max-width: 280px;
   color: #838383;
   font-size: 16px;
@@ -398,7 +399,7 @@
   margin-bottom: 56px;
 }
 
-.author p{
+.author p {
   margin-top: 10px;
   color: #838383;
   font-family: "Montserrat", sans-serif;
@@ -408,28 +409,26 @@
   letter-spacing: 0.3px;
 }
 
-.slider_item{
+.slider_item {
   display: flex;
   column-gap: 60px;
 }
 
-.testimonials_right{
+.testimonials_right {
   margin-bottom: 100px;
   overflow-x: hidden;
   width: 1000px;
 }
 
-
 /*===============testimonials section end===============*/
-
 
 /*===============sponser section start===============*/
 
-#sponser{
+#sponser {
   max-width: 1170px;
   margin: 0 auto;
 }
-.sponser_wrapper{
+.sponser_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -438,43 +437,41 @@
 }
 /*===============sponser section end===============*/
 
-
-
 /*===============footer section start===============*/
-.full_footer{
+.full_footer {
   background: #f05d7b;
   margin-top: 100px;
 }
 
-.footer_up{
+.footer_up {
   width: 1170px;
   margin: 0 auto;
 }
 
-.footer_up .subHeading{
+.footer_up .subHeading {
   padding-top: 100px;
   padding-bottom: 20px;
   color: white;
 }
 
-.footer_up .subTitle{
+.footer_up .subTitle {
   padding-bottom: 50px;
   color: white;
   max-width: 421px;
   margin: 0 auto;
 }
 
-.footer_up .footer_btn{
+.footer_up .footer_btn {
   display: flex;
   justify-content: center;
 }
 
-.footer_btn button{
-  background: #8671FC;
+.footer_btn button {
+  background: #8671fc;
   padding: 20px 50px;
   border-radius: 30px;
   border: none;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -482,20 +479,20 @@
   margin-bottom: 50px;
 }
 
-.divider{
+.divider {
   width: 100%;
   height: 1px;
   background: #fff;
   opacity: 0.2;
 }
 
-.footer_down{
+.footer_down {
   width: 1170px;
   margin: 0 auto;
 }
 
-.footer_down h4{ 
-  color: #FFF;
+.footer_down h4 {
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
@@ -505,8 +502,8 @@
   margin-top: 50px;
 }
 
-.footer_down p{
-  color: #FFF;
+.footer_down p {
+  color: #fff;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
